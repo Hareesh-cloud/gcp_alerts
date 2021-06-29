@@ -62,13 +62,3 @@ resource "google_monitoring_alert_policy" "alert_policy" {
     }
   }
 }
-/*
-resource "google_monitoring_notification_channel" "notification_channel" {
-  display_name = "Notification Channel"
-  type         = "email"
-
-  labels = {
-    email_address = var.email
-  }
-}
-*/
